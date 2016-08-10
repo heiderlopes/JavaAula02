@@ -8,11 +8,8 @@ public class Chute {
 		Scanner entrada = new Scanner(System.in);
 		int numeroChute;
 		int contadorChutes = 0;
-		
-		
 		System.out.println("Informe o numero a ser adivinhado: ");
 		int  numeroEscolhido = entrada.nextInt();
-		
 		do {
 			System.out.println("Chute um numero: ");
 			numeroChute = entrada.nextInt();
